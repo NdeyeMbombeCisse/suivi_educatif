@@ -76,17 +76,37 @@ button{
 }
 .section_mission{
     width: 608px;
+    height: 266px;
     border: 2px solid #7EEEFD;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     margin-left: 75px;
 }
 
+.paragraphe_mission .mission{
+    margin-top: -10px;
+  
+}
+.mission{
+    margin-left:75px ;
+
+
+}
+.paragraphe_vision .mission{
+    margin-top: -10px;
+  
+
+}
+
+
 .section_mission h2{
     color: #7EEEFD;
     margin-left: 75px;
+    margin-bottom: 40px;
+    margin-left: -222px;
 }
 .section_vision{
     width: 608px;
+    height: 266px;
     border: 2px solid #7EEEFD;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     margin-left: 75px;
@@ -96,12 +116,13 @@ button{
 .first_vision p{
     font-size: 25px;
     margin-left: 75px;
-    margin-top: -10px;
+    /* margin-top: -60px; */
    font-family: 'Times New Roman', Times, serif;
 }
 .section_vision h2{
     color: #7EEEFD;
-    margin-left: 75px;
+    margin-left: -242px;
+    
 }
 .img .photo{
     width: 660px;
@@ -129,6 +150,7 @@ button{
     margin-left: 70px;
     background-color: #7EEEFD;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 
 }
 .nombre p{
@@ -249,4 +271,122 @@ button{
     color: black;
     border: 1px solid black;
     margin-left: 72px;
+}
+/* section proffesseur */
+
+.proffesseur{
+    display: flex;
+}
+.profs{
+    position: relative;
+    margin-top: 140px;
+    margin-left: 190px;
+}
+.profs img{
+    position: absolute;
+    width: 200px;
+    height:200px ;
+    border-radius: 100px;
+    margin-left: 66px;
+    margin-top: -75px;
+}
+.nom_specialite{
+  width: 340px; 
+  height: 270px; 
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius:25px ;
+  
+  
+}
+.nom_specialite h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 140px;
+}
+.nom_specialite p {
+    font-size: 27px;
+    color: #7EEEFD;
+    text-align: center;
+}
+ h2{
+    text-align: center;
+    color: #7EEEFD;
+    font-size: 39px;
+    margin-top: 80px;
+}
+/* temoignage */
+.temoignage{
+    display: flex;
+}
+.ils_temoignent{
+    width: 565px;
+    height: 572px;
+    border: 1px solid black;
+    margin-left: 190px;
+    margin-top: 100px;
+    
+}
+.ils_temoignent img{
+    width: 565px;
+    height: 277px;
+ object-fit: none;
+
+}
+.ils_temoignent p{
+    font-size: 27px;
+    color: #766A6A;
+    margin-left: 130px;
+
+}
+.ils_temoignent h1{
+    font-size: 31px;
+    text-align: center;
+}
+.ils_temoignent  h3{
+    font-size: 23px;
+    text-align: center;
+}
+/* partenaires */
+.partenaires img{
+    width: 69px;
+    height: 90px;
+    margin-left: 190px;
+}
+.partenaire{
+    display: flex;
+}
+/*  footer */
+footer{
+    width: 100%;
+    height: 433px;
+    background-color: black;
+    margin-top: 55px;
+}
+.elements_footer p{
+    color: white;
+    font-size: 30px;
+}
+.elements_footer h1{
+    color: white;
+}
+.ecriture{
+    margin-left: 130px;
+   margin-top: 30px;
+}
+.logo{
+     margin-top: 100px; 
+    margin-left: 900px;
+    
+}
+.logo img{
+    margin-left: 10px;
+}
+
+.elements_footer{
+    display: flex;
+}
+.last{
+    color: white;
+    margin-left: 910px;
 }
