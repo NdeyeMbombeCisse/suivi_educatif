@@ -1,3 +1,5 @@
+ 
+ 
  header{
     display: flex;
     width: 100%;
@@ -56,4 +58,195 @@ button{
     color: white;
     font-weight: bold;
     margin-left: 90px;
+}
+/* first section */
+.first_section {
+    display: flex;
+}
+.first_section h1{
+    color:#7EEEFD;
+    font-size: 40px;
+    margin-left: 75px;
+}
+.first_section p{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: -10px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.section_mission{
+    width: 608px;
+    border: 2px solid #7EEEFD;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 75px;
+}
+
+.section_mission h2{
+    color: #7EEEFD;
+    margin-left: 75px;
+}
+.section_vision{
+    width: 608px;
+    border: 2px solid #7EEEFD;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 75px;
+    margin-top: 40px;
+
+}
+.first_vision p{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: -10px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.section_vision h2{
+    color: #7EEEFD;
+    margin-left: 75px;
+}
+.img .photo{
+    width: 660px;
+    height:551px;
+    margin-left: 200px;
+    margin-top: 160px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   
+}
+.Contact{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.email{
+    margin-left: 500px;
+    margin-top: -60px;
+}
+/* section statistique */
+.statistic{
+    display: flex;
+    width: 92%;
+    height: 207px;
+    border: 2px solid #7EEEFD;
+    margin-left: 70px;
+    background-color: #7EEEFD;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+.nombre p{
+    font-size: 29px;
+    margin-top: -20px;
+    font-family:Inria Serif;
+    font-weight: 100;
+}
+
+.nombre {
+    margin-left: 160px;
+}
+.nombre h1{
+    color: #BA2727;
+    font-size: 47px;
+   
+}
+/* section actualite */
+.actualite img{
+    width: 148px;
+    height:148px ;
+    border-radius: 100px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.actualite {
+    margin-left: 200px;
+    margin-top: 200px;
+    width: 400px;
+    height: 573px;
+    border: 2px solid #7EEEFD;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.actualite p{
+    font-size: 25px;
+    margin-left: 70px;
+}
+.actualite h1{
+    font-size: 39px;
+    color: #7EEEFD;
+    margin-left: 100px;
+
+}
+.actualite button{
+    width: 99px;
+    height: 44px;
+    color: black;
+    border: 1px solid black;
+    margin-left: 72px;
+}
+.events{
+    display: flex;
+}
+/* evenement */
+.Evenement{
+    margin-left: 45px;
+    margin-top: 100px;
+    width: 400px;
+    height: 573px;
+    border: 2px solid #7EEEFD;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+.Evenement button{
+    width: 99px;
+    height: 44px;
+    color: black;
+    border: 1px solid black;
+    margin-left: 72px;
+}
+.Evenement h1{
+    font-size: 39px;
+    color: #7EEEFD;
+    margin-left: 100px;
+
+}
+
+.Evenement img{
+    width: 148px;
+    height:148px ;
+    border-radius: 100px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.Evenement p{
+    font-size: 25px;
+    margin-left: 70px;
+}
+/* Annonce */
+.annonce img{
+    width: 148px;
+    height:148px ;
+    border-radius: 100px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.annonce {
+    margin-left: 50px;
+    margin-top: 200px;
+    width: 400px;
+    height: 573px;
+    border: 2px solid #7EEEFD;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.annonce p{
+    font-size: 25px;
+    margin-left: 70px;
+}
+.annonce h1{
+    font-size: 39px;
+    color: #7EEEFD;
+    margin-left: 100px;
+
+}
+.annonce button{
+    width: 99px;
+    height: 44px;
+    color: black;
+    border: 1px solid black;
+    margin-left: 72px;
 }
