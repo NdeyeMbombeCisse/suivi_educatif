@@ -1,3 +1,4 @@
+
  
  
  header{
@@ -5,8 +6,8 @@
     width: 100%;
     height: 90px;
     background-color: #7EEEFD;
-    justify-content: center; /* Centrer horizontalement le contenu */
-    align-items: center; /* Centrer verticalement le contenu */
+    justify-content: center; 
+    align-items: center; 
 } 
 
 nav{
@@ -34,9 +35,9 @@ button{
     margin-left: 50px;
     font-weight: bold;
     font-family: Inria Serif;
-}
+} 
 /* baniere */
-.baniere{
+ .baniere{
     width: 100%;
     height: 650px;
     background-size: cover;
@@ -58,9 +59,9 @@ button{
     color: white;
     font-weight: bold;
     margin-left: 90px;
-}
+} 
 /* first section */
-.first_section {
+ .first_section {
     display: flex;
 }
 .first_section h1{
@@ -116,7 +117,7 @@ button{
 .first_vision p{
     font-size: 25px;
     margin-left: 75px;
-    /* margin-top: -60px; */
+    
    font-family: 'Times New Roman', Times, serif;
 }
 .section_vision h2{
@@ -124,6 +125,27 @@ button{
     margin-left: -242px;
     
 }
+.exeperience{
+    position: relative;
+}
+
+.annee{
+    position: absolute;
+    width: 160px;
+    height: 142px;
+    border: 2px solid #7EEEFD;
+    margin-top: 100px;
+    margin-left: 250px;
+    background-color: #BA2727;
+    border-radius: 20px;
+}
+.annee p{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+     
 .img .photo{
     width: 660px;
     height:551px;
@@ -140,7 +162,10 @@ button{
 .email{
     margin-left: 500px;
     margin-top: -60px;
-}
+} 
+
+
+
 /* section statistique */
 .statistic{
     display: flex;
@@ -389,4 +414,27 @@ footer{
 .last{
     color: white;
     margin-left: 910px;
+}
+/* responsovite */
+@media only screen and (max-width: 1440px) {
+    nav {
+        margin-left: 0; /* Supprimez la marge fixe à gauche pour les écrans de petite taille */
+        margin-right: 0; /* Supprimez la marge fixe à droite */
+    }
+
+    header a {
+        font-size: 18px; /* Réduisez davantage la taille de la police pour les écrans plus petits */
+        margin-left: 10px; /* Réduisez davantage l'espacement entre les éléments */
+    }
+
+    button {
+        width: 100px;
+        height: 34px;
+        margin-top: -12px;
+        font-size: 14px; /* Réduisez la taille de la police du bouton pour les écrans plus petits */
+        margin-left: 350px; /* Réduisez davantage la marge à gauche */
+    }
+
+    
+    
 }
